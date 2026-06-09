@@ -19,14 +19,15 @@ O projeto tem como objetivo demonstrar conceitos fundamentais de programação e
 * Fios de conexão;
 * MicroPython;
 * Simulador Wokwi.
+* ![imagem](https://github.com/Pereira06z/PIANO-LED/blob/main/PIANO.png)
 
 ## Funcionamento
 
 O sistema executa uma sequência repetitiva em que:
 
-1. O LED Vermelho acende por 0,5 segundo;
-2. O LED Vermelho apaga e o LED Verde acende por 0,5 segundo;
-3. O LED Verde apaga e o LED Azul acende por 0,5 segundo;
+1. O LED Azul acende por 0,5 segundo;
+2. O LED Azul apaga e o LED Vermelho acende por 0,5 segundo;
+3. O LED Vermelho apaga e o LED Verde acende por 0,5 segundo;
 4. Após o último LED, a sequência reinicia automaticamente.
 
 O resultado é um efeito visual semelhante às teclas de um piano sendo pressionadas em sequência, proporcionando uma animação simples e intuitiva para demonstração de temporização e controle de LEDs.
